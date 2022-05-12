@@ -1,0 +1,26 @@
+.ContactSection {
+    height: 15%;
+    margin: 5%;
+}
+
+.ContactSection_Data {
+    color: var(--light-blue);
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.ContactSection__title {
+    display: block;
+    font-weight: 500;
+    color: var(--red);
+    font-size: calc((10000vw/14142) * 1.1);;
+}
+
+.ContactSection__text {
+    display: block;
+    font-weight: 400;
+    font-size: calc((10000vw/14142));
+}
