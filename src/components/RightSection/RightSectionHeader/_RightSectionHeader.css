@@ -1,3 +1,7 @@
+.RightSection_Header {
+    margin-bottom: 10%;
+}
+
 .RightSection__Name {
     font-size: 3em;
     color: var(--main-color);
@@ -7,7 +11,7 @@
 
 .RightSection__Description {
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .RightSection__Article {
