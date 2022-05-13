@@ -8,7 +8,7 @@
     display: block;
     font-weight: 700;
     color: var(--grey);
-    font-size: calc((10000vw/14142) * 1.6);
+    font-size: 1.6em;
 }
 
 .ContactSection_Data {
@@ -24,11 +24,11 @@
     display: block;
     font-weight: 500;
     color: var(--red);
-    font-size: calc((10000vw/14142) * 1.1);
+    font-size: 1.1em;
 }
 
 .ContactSection__text {
     display: block;
     font-weight: 400;
-    font-size: calc((10000vw/14142));
+    font-size: 1.1em;
 }

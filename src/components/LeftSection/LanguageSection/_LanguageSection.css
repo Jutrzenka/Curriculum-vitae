@@ -1,0 +1,8 @@
+.LanguageSection {
+    height: 25%;
+    margin: 5%;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -19,5 +19,5 @@
     display: block;
     font-weight: 700;
     color: var(--grey);
-    font-size: calc((10000vw/14142) * 1.6);
+    font-size: 1.6em;
 }

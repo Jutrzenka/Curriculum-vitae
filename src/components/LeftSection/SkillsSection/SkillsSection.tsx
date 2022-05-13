@@ -1,6 +1,6 @@
 import React from "react";
 import "./_SkillsSection.css";
-import {Skill} from "./Skill/Skill";
+import {Skill} from "../../Skill/Skill";
 
 export const SkillsSection = () => {
     return (
