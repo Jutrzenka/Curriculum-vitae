@@ -1,0 +1,11 @@
+.RightSection {
+    height: 100%;
+    width: 73%;
+    background: linear-gradient(-45deg, rgba(31,37,38, 0.12) 0%, rgba(196,204,204, 0.25) 38%, rgba(237,242,235, 0.30) 76%);
+    padding: 0 0 0 10%;
+}
+
+.RightSection_Gradient {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+.EducationSection {
+    height: 12%;
+}
+
+.EducationSection_Name {
+    font-size: 2em;
+    color: var(--main-color);
+    letter-spacing: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.EducationSection___ListElement {
+    list-style: none;
+}
+
+.EducationSection___Text {
+    font-size: 1.5em;
+}
+
+.EducationSection___Span {
+    font-weight: 500;
+}

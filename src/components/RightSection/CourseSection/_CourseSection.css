@@ -1,0 +1,24 @@
+.CourseSection {
+    height: 12%;
+}
+
+.CourseSection_Name {
+    font-size: 2em;
+    color: var(--main-color);
+    letter-spacing: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.CourseSection___ListElement {
+    list-style: none;
+}
+
+.CourseSection___Text {
+    font-size: 1.5em;
+}
+
+.CourseSection___Span {
+    font-weight: 500;
+}

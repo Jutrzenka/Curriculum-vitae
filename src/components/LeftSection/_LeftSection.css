@@ -1,0 +1,14 @@
+.LeftSection {
+    width: 27%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+
+.LeftSection_Margin {
+    height: 3%;
+}
+
+.LeftSection_Images {
+    box-sizing: border-box;
+    width: 100%;
+}

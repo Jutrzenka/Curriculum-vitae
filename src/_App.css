@@ -1,0 +1,60 @@
+.App {
+    background-color: #545454;
+    display: flex;
+    justify-content: center;
+}
+
+.Document {
+    aspect-ratio: 10000/14142;
+    height: 100%;
+    font-size: calc(50px/4.5);
+    display: flex;
+}
+
+.CV {
+    width: 100%;
+    aspect-ratio: 10000/14142;
+    background-color: #dfe3e3;
+}
+
+.DocumentManager {
+    width: max-content;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.DocumentManager_BUTTON {
+    background: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: var(--background-color);
+    cursor: pointer;
+    display: inline-block;
+    font-family: roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 1vw;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 1vh 1.2vh;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.DocumentManager_BUTTON:hover, .DocumentManager_PRINT:active {
+    background-color: var(--background-color);
+    background-position: 0 0;
+    color: var(--red);
+}
+
+.DocumentManager_BUTTON:active {
+    opacity: 0.5;
+}

@@ -1,0 +1,34 @@
+.ContactSection {
+    height: 15%;
+    margin: 5%;
+    letter-spacing: 1px;
+}
+
+.ContactSection_name {
+    display: block;
+    font-weight: 700;
+    color: var(--grey);
+    font-size: 1.6em;
+}
+
+.ContactSection_Data {
+    color: var(--light-blue);
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ContactSection__title {
+    display: block;
+    font-weight: 500;
+    color: var(--red);
+    font-size: 1.1em;
+}
+
+.ContactSection__text {
+    display: block;
+    font-weight: 400;
+    font-size: 1.1em;
+}

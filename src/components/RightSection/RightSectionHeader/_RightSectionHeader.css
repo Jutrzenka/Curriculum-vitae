@@ -1,0 +1,27 @@
+.RightSection_Header {
+    margin-bottom: 10%;
+}
+
+.RightSection__Name {
+    font-size: 3em;
+    color: var(--main-color);
+    letter-spacing: 0.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.RightSection__Description {
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.RightSection__Article {
+    padding: 1vh 2vw;
+    border: var(--main-color) solid 0.5vh;
+    width: fit-content;
+}
+
+.RightSection__Text {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
