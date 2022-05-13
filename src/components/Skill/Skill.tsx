@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./_Skill.css";
+import { nanoid } from 'nanoid'
 
 interface Props {
     title: string;
@@ -10,9 +11,9 @@ export const Skill = ({title, point}:Props) => {
     let arraySkill = []
     for (let i = 1; i <= 5; i++) {
         if (i <= point) {
-            arraySkill.push(<li className={"Skill__Point"}/>)
+            arraySkill.push(<li key={nanoid()} className={"Skill__Point"}/>)
         } else {
-            arraySkill.push(<li className={"Skill__NonPoint"}/>)
+            arraySkill.push(<li key={nanoid()} className={"Skill__NonPoint"}/>)
         }
     }
     return (

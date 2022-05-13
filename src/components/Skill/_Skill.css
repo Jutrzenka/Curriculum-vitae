@@ -29,7 +29,7 @@
 .Skill_list {
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     box-sizing: border-box;
 }
 
