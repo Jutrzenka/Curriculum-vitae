@@ -3,6 +3,7 @@ import { useReactToPrint } from 'react-to-print';
 import {LeftSection} from "./components/LeftSection/LeftSection";
 
 import "./_App.css";
+import {RightSection} from "./components/RightSection/RightSection";
 
 enum Size {
     zoomOut,
@@ -11,11 +12,11 @@ enum Size {
 
 export const App = () => {
     const [width, setWidth] = useState(65);
-    const [fontSize, setFontSize] = useState(width/4.5);
+    const [fontSize, setFontSize] = useState(width);
     const componentRef = useRef<any>(null);
 
     useEffect(() => {
-        setFontSize(width/4.5);
+        setFontSize(width);
     },[width])
 
     const print = (
@@ -23,6 +24,7 @@ export const App = () => {
             <div className={"CV"} ref={componentRef}>
                 <div className={"Document"}>
                     <LeftSection/>
+                    <RightSection/>
                 </div>
             </div>
         </div>
@@ -41,7 +43,7 @@ export const App = () => {
                 break;
             case Size.zoomOut:
                 setWidth(prevState => {
-                    if (prevState > 30) {
+                    if (prevState > 45) {
                         return prevState - 5
                     } else {
                         return prevState;
@@ -64,8 +66,9 @@ export const App = () => {
             <button className={"DocumentManager_BUTTON"} onClick={() => handleEnlarge(Size.zoomIn)}>+</button>
         </div>
         <div className={"CV"} style={{width: `${width}%`}}>
-            <div className={"Document"} style={{fontSize: `${fontSize}px`}}>
+            <div className={"Document"} style={{fontSize: `${fontSize/80}vw`}}>
                 <LeftSection/>
+                <RightSection/>
             </div>
         </div>
         {print}
