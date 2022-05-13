@@ -1,0 +1,23 @@
+.SkillsSection {
+    height: 35%;
+    margin: 5%;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SkillsSection_Data {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.SkillsSection_name {
+    display: block;
+    font-weight: 700;
+    color: var(--grey);
+    font-size: 1.6em;
+}

@@ -1,0 +1,52 @@
+.SkillsSection > .Skill {
+    height: 15%;
+}
+
+.LanguageSection > .Skill {
+    height: 25%;
+}
+
+.Skill_Data {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Skill_title {
+    display: block;
+    font-weight: 500;
+    color: var(--grey);
+    font-size: 1.1em
+}
+
+.Skill_Points {
+    width: 100%;
+    height: 60%;
+}
+
+.Skill_list {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.Skill__Point {
+    display: block;
+    width: 20%;
+    height: 80%;
+    background-color: var(--red);
+    border-radius: 10%;
+    margin: 0 1%;
+}
+
+.Skill__NonPoint {
+    display: block;
+    width: 20%;
+    height: 80%;
+    background-color: var(--light-blue);
+    border-radius: 10%;
+    margin: 0 1%;
+}

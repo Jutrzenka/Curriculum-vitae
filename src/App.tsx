@@ -1,11 +1,14 @@
-import React from 'react';
-import {MarginTop} from "./components/MarginTop/MarginTop";
+import React, {useState} from 'react';
+import {LeftSection} from "./components/LeftSection/LeftSection";
+
+import "./_App.css";
 
 export const App = () => {
-  return (
-    <div className="App">
-        <div className={"CV"}>
-            <MarginTop/>
+    const [width, setWidth] = useState(45);
+    return (
+    <div className="App" style={{fontSize: `${width/4.5}px`}}>
+        <div className={"CV"} style={{width: `${width}%`}}>
+            <LeftSection/>
         </div>
     </div>
   );
