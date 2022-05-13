@@ -55,7 +55,7 @@ export const App = () => {
 
     const handlePrint = useReactToPrint({
         content: () => componentRef.current,
-        onAfterPrint: () => {setWidth(60); setFontSize(60/4.5)}
+        onAfterPrint: () => {setWidth(60);}
     });
 
     return (

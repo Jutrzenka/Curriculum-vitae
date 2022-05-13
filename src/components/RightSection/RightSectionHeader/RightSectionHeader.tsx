@@ -23,6 +23,9 @@ export const RightSectionHeader = () => {
                 <p className={"RightSection__Text"}>
                     Aktualnie jestem w trakcie kursu z Express.js i Nest.js.
                 </p>
+                <p className={"RightSection__Text"}>
+                    Mieszkam w Suwałkach, ale przeprowadzka do Olsztyna nie byłaby problemem.
+                </p>
             </article>
         </header>
     )

@@ -14,7 +14,7 @@
 .CV {
     width: 100%;
     aspect-ratio: 10000/14142;
-    background-color: var(--background-color);
+    background-color: #dfe3e3;
 }
 
 .DocumentManager {
