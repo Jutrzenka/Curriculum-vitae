@@ -4,7 +4,14 @@
     justify-content: center;
 }
 
+.Document {
+    aspect-ratio: 10000/14142;
+    height: 100%;
+    font-size: calc(50px/4.5);
+}
+
 .CV {
+    width: 100%;
     aspect-ratio: 10000/14142;
     background-color: var(--background-color);
 }
