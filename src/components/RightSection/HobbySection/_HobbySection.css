@@ -1,0 +1,20 @@
+.HobbySection {
+    height: 10%;
+}
+
+.HobbySection_Name {
+    font-size: 2em;
+    color: var(--main-color);
+    letter-spacing: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.HobbySection___ListElement {
+    list-style: none;
+}
+
+.HobbySection___Text {
+    font-size: 1.5em;
+}
