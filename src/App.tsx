@@ -5,7 +5,7 @@ import {LeftSection} from "./components/LeftSection/LeftSection";
 import "./_App.css";
 
 export const App = () => {
-    const [width, setWidth] = useState(30);
+    const [width, setWidth] = useState(60);
     const [fontSize, setFontSize] = useState(width/4.5);
     const componentRef = useRef<any>(null);
 
